@@ -24,6 +24,10 @@ body{
  
 }
 
+p{
+  margin: 33px;
+}
+
 header{
   margin:17.42px 0px;
 }
@@ -33,6 +37,7 @@ header{
  
 }
 
-link_to{
+a{
   color:#666;
 }
+
