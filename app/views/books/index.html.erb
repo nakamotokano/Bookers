@@ -1,4 +1,4 @@
-<h1>Books</h1>
+<header><h1>Books</h1></header>
 
 <table>
   <thead>
@@ -32,10 +32,10 @@
   </ul>
 
 <%= form_with model: @book do |f| %>
-<div>Title</div>
-<%= f.text_field :title %>
-<div>Body</div>
-<%= f.text_area :body %><br>
+<div class="form">Title<br>
+<%= f.text_field :title %></div>
+<div class="form">Body<br>
+<%= f.text_area :body %><br></div>
 
 
 <%= f.submit 'Create Book' %>
